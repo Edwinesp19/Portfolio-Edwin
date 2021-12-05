@@ -140,32 +140,39 @@ header .menu button {
   width: 100%;
   background-color: rgb(153, 77, 77);
 }
+.proyectos .contenedor {
+  background-color: rgb(79, 177, 50);
+}
 .proyectos .contenedor-proyectos {
-  column-count: 2;
-  column-gap: 15px;
   background-color: rgb(99, 99, 99);
 }
 
-.proyectos .contenedor-proyectos article {
+.proyectos .contenedor-proyectos {
   padding: 20px;
   margin: 0 0 15px;
+  max-width: 100%;
   background-color: rgb(103, 110, 0);
+  column-count: 2;
+  column-gap: 15px;
 }
 
 .proyectos .item-proyectos {
   margin-bottom: 10px;
-  height: 300px;
-  /*border-bottom: 1.5px solid rgb(206, 206, 206);*/
   overflow: hidden;
   background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
 }
 
 .proyectos .item-proyectos img {
   width: 100%;
 }
 .proyectos .item-imagen {
-  width: 400px;
-  height: 200px;
+  max-width: 500px;
+  height: 700px;
 }
 
 .proyectos p {
